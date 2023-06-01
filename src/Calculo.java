@@ -11,7 +11,7 @@ public class Calculo {
 	  
 	  calendar.setTime(new SimpleDateFormat("dd-MM-yyyy").parse("10-03-2023")); // Define um data qualquer
 	  
-	  calendar.add(Calendar.DAY_OF_MONTH, -40);
+	  calendar.add(Calendar.DAY_OF_MONTH, 5);
 	  
 	  System.out.println("Somando dia do mês: " + new SimpleDateFormat("dd-MM-yyyy").format(calendar.getTime()));
 	  
@@ -23,5 +23,7 @@ public class Calculo {
 	  
 	  System.out.println("Somando 1 ano: " + new SimpleDateFormat("dd-MM-yyyy").format(calendar.getTime()));
 	}
+	
+	
 
 }
