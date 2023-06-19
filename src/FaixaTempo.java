@@ -10,9 +10,11 @@ public class FaixaTempo {
 		
 		//Date dataPassada = new SimpleDateFormat("dd/MM/yyyy").parse("01/02/2021");
 
-		long dias = ChronoUnit.DAYS.between(LocalDate.parse("2023-05-01"), LocalDate.now());
+		//long dias = ChronoUnit.DAYS.between(LocalDate.parse("2023-05-01"), LocalDate.now());
 		
-		System.out.println(dias);
+		//System.out.println(dias);
+		
+		
 	}
 
 }

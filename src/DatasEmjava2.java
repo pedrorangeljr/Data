@@ -14,7 +14,7 @@ public class DatasEmjava2 {
 		
 		System.out.println("Data Atual: " + simpleDateFormat.format(date));
 		
-		System.out.println(simpleDateFormat.parse("11/01/1986"));
+		//System.out.println(simpleDateFormat.parse("11/01/1986"));
 
 	}
 
